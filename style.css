@@ -1,0 +1,90 @@
+*{
+   box-sizing: border-box;
+}
+
+h1{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+h2 {
+  text-align: center;
+    font-size: 60px;
+}
+
+ul {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+nav ul {
+list-style-type: none;
+white-space: nowrap;
+list-style: none;
+float: left;
+}
+
+nav li {
+  list-style-type: none;
+  list-style: none;
+  float: right;
+  left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.image {
+    background-image: url('dol.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    float: left;
+}
+
+.image .text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 40px;
+    left: 20px;
+    width: 700px;
+}
+
+
+
+#as {
+   width: 960px;
+   height: 600px;
+   padding: 10px;
+   
+}
+#asd{
+
+     vertical-align: middle;
+   position: relative;
+   text-align: center;
+   display: inline-block;
+   margin-top: 80px ;
+   margin-left: 200px;
+
+
+}
+
+
+#menulink {
+    list-style: none;
+    color: gray;
+    text-decoration: none;
+}
+   footer{
+   background-color: gray;
+   text-align: center;
+   font-family: monospace;;
+   font-size: 15px;
+   position: absolute;
+}
+

@@ -1,0 +1,97 @@
+*{
+   box-sizing: border-box;
+}
+
+nav{
+    background-color: gray;
+    width: 100%;
+    height: 70px;
+}
+nav ul {
+list-style-type: none;
+white-space: nowrap;
+list-style: none;
+float: left;
+}
+h1{
+    font-size: 20px;
+    padding-left: 50px;
+}
+a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+h2{
+    color:white;
+}
+nav li {
+    padding-right: 50px;
+  list-style-type: none;
+  list-style: none;
+  float: right;
+  left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+p{
+    color:gray;
+}
+header
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('앵간.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h2{
+    position:absolute;
+    top: 20%;
+    left: 45%;
+}
+
+header p{
+    position:absolute;
+    top: 30%;
+    left:28%;
+}
+section{
+   width: 100%;
+   height: 500px;
+   padding: 50px 50px 50px 50px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 22%;
+}
+section article img{
+    margin-top: 80px ;
+    width: 500px; /* 310px fix */
+    height: 310px;
+    padding: 0px 80px 0px 80px; /* fix */
+    left: 20%;
+     
+}
+#asd1{
+    float: left;
+}
+#asd2{
+    float: left;
+}
+#asd3{
+    float: left;
+}
+
+#pragraph{
+    text-align: center;
+}
+footer{
+    position: relative;
+    color: yellow;
+    font-size:20px;
+    width: 100%;
+   background-color: black;
+   text-align: center;
+   font-family: monospace;
+  padding: 10px;
+}
